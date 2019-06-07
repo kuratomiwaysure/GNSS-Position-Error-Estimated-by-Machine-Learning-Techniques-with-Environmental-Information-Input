@@ -519,8 +519,8 @@ def svr(filter_input_train_svr,filter_output_train_svr,filter_errors_train_svr,i
 
 
 "Defines the information to be used for algorithms to train and test on:"
-possible_input = ['gardet2','gardet3','kth1','kth2']
-possible_output = ['expecGardet2','expecGardet3','expecKth1','expecKth2']
+possible_input = ['inputFeaturesFile1','inputFeaturesFile2']
+possible_output = ['outputFeaturesFile1','outputFeaturesFile2']
 
 "Defines the fraction of data to be used for testing. Uses 20% of the data for testing"
 fraction = 0.2
